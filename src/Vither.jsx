@@ -36,16 +36,16 @@ function App() {
           placeholder="Enter Your Location"
         />
         <button className="bg-blue-400 w-10 flex items-center justify-center rounded-r-lg">
-          {" "}
+          
           <SearchIcon />
         </button>
       </div>
       <div className="flex">
-        <div className="text-7xl font-black text-cyan-400 flex">
-          <p className="pl-8 pt-12">{data.name} Temp : </p>
+        <div className="text-7xl font-bold text-indigo-800 flex">
+          <p className="pl-8 ">{data.name} Temp : </p>
         </div>
-        <div className="text-7xl font-bold text-white">
-          <p className="pl-12 pt-12">
+        <div className="text-7xl font-bold text-blue-100">
+          <p className="pl-12 ">
             {" "}
             {data.main ? <h1> {data.main.temp}°F</h1> : null}
           </p>
