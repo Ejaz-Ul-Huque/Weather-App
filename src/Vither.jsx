@@ -18,7 +18,7 @@ function App() {
     }
   };
   return (
-    <div className="h-screen  grid place-items-center bg-gray-800">
+    <div className="h-screen  grid place-items-center bg-cover bg-[url('https://wallpaperaccess.com/full/398858.jpg')]">
      
       {/* <input
         value={location}
