@@ -50,6 +50,12 @@ function App() {
             {data.main ? <h1> {data.main.temp}°F</h1> : null}
           </p>
         </div>
+        {/* <div className="text-7xl font-bold text-blue-100">
+          <p className="pl-12 ">
+            {" "}
+            {data.clouds ? <h1> {data.clouds.cod}</h1> : null}
+          </p>
+        </div> */}
       </div>
     </div>
   );
