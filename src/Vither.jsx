@@ -18,7 +18,8 @@ function App() {
     }
   };
   return (
-    <div className="h-screen grid place-items-center bg-gray-800">
+    <div className="h-screen  grid place-items-center bg-gray-800">
+     
       {/* <input
         value={location}
         onChange={event =>setLocation(event.target.value)}
@@ -39,12 +40,12 @@ function App() {
           <SearchIcon />
         </button>
       </div>
-      <div>
+      <div className="flex">
         <div className="text-7xl font-black text-cyan-400 flex">
-          <p className="pl-8 pt-12">{data.name} </p>
+          <p className="pl-8 pt-12">{data.name} Temp : </p>
         </div>
         <div className="text-7xl font-bold text-white">
-          <p className="pl-12 pt-8">
+          <p className="pl-12 pt-12">
             {" "}
             {data.main ? <h1> {data.main.temp}°F</h1> : null}
           </p>
