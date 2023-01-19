@@ -10,9 +10,9 @@ function App() {
 
   const searchLocation = (event) => {
     if (event.key === "Enter") {
-      axios.get(APIKey).then((responce) => {
-        setData(responce.data);
-        console.log(responce.data);
+      axios.get(APIKey).then((response) => {
+        setData(response.data);
+        console.log(response.data);
       });
       setLocation("");
     }
